@@ -29,6 +29,7 @@ export class OID4VCIRestAPI {
     const expressSupport = args.expressSupport
     const instance = await context.agent.oid4vciGetInstance(args.issuerInstanceArgs)
     const issuer = await instance.get({ context, credentialDataSupplier: args.credentialDataSupplier })
+    console.log("issuer@@@@@@: ", issuer)
 
     if (!opts.endpointOpts) {
       opts.endpointOpts = {}
