@@ -2,13 +2,13 @@
 <h1 align="center">
   <br>
   <a href="https://www.sphereon.com"><img src="https://sphereon.com/content/themes/sphereon/assets/img/logo.svg" alt="Sphereon" width="400"></a>
-  <br>SSI SDK 
+  <br>SSI SDK
   <br>
 </h1>
 
 # SSI SDK with OID4VC, Presentation Exchange, MS Entra support
 
-This mono repository, contains packages that add support for Presentation Exchange and OpenID4VC (SIOPv2, OID4VCI,
+a@@@@This mono repository, contains packages that add support for Presentation Exchange and OpenID4VC (SIOPv2, OID4VCI,
 OID4VP) and other functionalities to SSI-SDK and [Veramo](https://veramo.io) based agents.
 
 We also have additional DID methods and BBS+, RSA key support in
@@ -97,8 +97,8 @@ instance. It can also be used to manage trust when encountering a certain contac
 
 ## Issuance branding and storage
 
-The issuance-branding plugin allows you to persist branding for issuers and credentials. This allows for these entities to be styled even when there 
-is no active connection possible to the external parties. It supports logo's, background attributes like an image and or color, text color and 
+The issuance-branding plugin allows you to persist branding for issuers and credentials. This allows for these entities to be styled even when there
+is no active connection possible to the external parties. It supports logo's, background attributes like an image and or color, text color and
 additional branding information per locale.
 
 | Plugin                                            | Description                                                                              |
